@@ -7,7 +7,11 @@ import Button from '../components/Button.astro';
   <h1>Kapil Bahadur</h1>
   <p>Technical Product Manager focused on data systems.</p>
 
-  <Button href="/resume" label="View Resume" />
+   <p style="margin-top: 32px;">
+    <a href={`${import.meta.env.BASE_URL}resume`}>
+      View Resume
+    </a>
+  </p>
 
   <p style="margin-top: 40px;">
   <a href="https://github.com/kapilbahadur" target="_blank">GitHub</a> · 
